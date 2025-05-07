@@ -1,0 +1,30 @@
+*{
+font-family: cursive;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-padding-top: 4rem;
+scroll-behavior: smooth;
+list-style: none;
+text-decoration: none;
+}
+
+:root{        
+  --mainColor:#bc9667;
+  --secondaryColor:#edeae3;
+  --textColor:#1b1b1b;
+  --bgColor:#fff;
+
+  --boxShadow:2px 2px 10px 14px rgb(14 55 54 / 15%);
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    color: var(--textColor);
+}
+
+
+
