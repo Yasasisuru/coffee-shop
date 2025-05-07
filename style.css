@@ -141,6 +141,7 @@ section{
     grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
     align-items: center;
     gap: 1.5rem;
+    margin-top: -50PX;
 }
 
 
@@ -334,3 +335,96 @@ section{
     margin: auto;
   }
   
+  @keyframes hero{
+    0% ,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(60px);
+    }
+
+
+  }
+
+  .homeImg img{
+    animation-name: hero;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+
+
+  @media(max-width:1058px){
+    header{
+        padding: 16px 60px;
+
+    }
+
+    section{
+        padding: 50px 60px;
+    }
+
+.home-text h1{
+    font-size: 2.4rem;
+margin-top: 80px;
+}
+
+
+
+
+  }
+
+
+
+  @media(max-width:990px){
+    header{
+        padding: 16px 4%px;
+
+    }
+
+    section{
+        padding: 50px 4%px;
+    }
+
+.home-text h1{
+    font-size: 2rem;
+    
+}
+
+  }
+
+  @media(max-width:680px){
+    header{
+        padding: 12px 4%px;
+
+    }
+
+#menu-icon{
+    display: initial;
+}
+
+.navbar{
+    position: absolute;
+    top:-500%;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondaryColor);
+    row-gap: 1.4rem;
+    padding: 20px ;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.navbar a{
+    color: var(--textColor);
+}
+
+.navbar.active{
+    top:100%;
+}
+
+  }
