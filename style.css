@@ -169,3 +169,28 @@ section{
 .btn:hover{
     background-color: #8a6f48;
 }
+
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.aboutImage img{
+    border-radius: 1.8rem;
+}
+
+.aboutText h2{
+    color: var(--mainColor);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+
+}
+
+.aboutText p{
+    font-size: 0.8rem;
+    margin: 0.5rem 0 1.2rem;
+}
