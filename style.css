@@ -124,3 +124,48 @@ header{
 
 
 }
+
+
+section{
+    padding: 50px 100px;
+}
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+.home-text h1{
+    font-size: 2.4rem;
+    color: var(--mainColor);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+
+.home-text p{
+    color: var(--bgColor);
+    font-size: 12px;
+    margin: 0.5rem 0 1.4rem;
+}
+
+.btn{
+    padding:10px 40px;
+    border-radius: 0.3rem;
+    background: var(--mainColor);
+    color: var(--bgColor);
+    font-weight: 500;
+}
+
+.btn:hover{
+    background-color: #8a6f48;
+}
