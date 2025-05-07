@@ -189,10 +189,14 @@ section{
     text-transform: uppercase;
 
 }
+.aboutText{
+    text-align: center;
+}
 
 .aboutText p{
     font-size: 0.8rem;
     margin: 0.5rem 0 1.2rem;
+    text-align: left;
 }
 
 .heddind{
@@ -303,3 +307,30 @@ section{
    object-fit: cover;
    margin-top: 0.7rem;
 }
+
+.starts .bx{
+    color: var(--mainColor);
+}
+
+
+.customersContainer .box1:hover{
+    background-color: var(--secondaryColor);
+    transform: scale(105%);
+    transition:0.3s all linear;
+
+}
+
+
+
+.footer {
+    background-color:var(--textColor);
+    color: var(--secondaryColor);
+    padding: 0.5rem ;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 100%;
+    margin: auto;
+  }
+  
